@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trivia Game</title>
+    <!-- Links Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- Links Stylesheet -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Links CSS Reset -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+</head>
+
+<body>
+<div class="container">
+    <div class="jumbotron-fluid">
+        <h1>Trivia Game</h1>
+    </div>
+    <div class="row">
+        <div class="col 12">
+            <div class="card timeBox">
+                <h5 id="timer">Time Remaining:</h5>
+            </div>
+            <div class="card questionBox">
+                <h5 id="question">WHAT is your favorite color?</h5>
+            </div>
+            <div class="card answerBox">
+                <ul class="answerList">
+                    <input type="radio" name="option" value="1"/><span class="answers" id="opt1">Option 1</span>
+                    <input type="radio" name="option" value="2"/><span class="answers" id="opt2">Option 2</span>
+                    <input type="radio" name="option" value="3"/><span class="answers" id="opt3">Option 3</span>
+                    <input type="radio" name="option" value="4"/><span class="answers" id="opt4">Option 4</span>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<!-- Links jQuery Library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Links Javascript -->
+<script type="text/javascript" src="./assets/javascript/app.js"></script>
+<script type="text/javascript" src="./assets/javascript/questions.js"></script>
+
+</html>

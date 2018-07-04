@@ -1,0 +1,42 @@
+var questions = [
+    {
+        "question": "WHAT is your favorite color?",
+        "option1": " Blue...no, green.",
+        "option2": " I don't know, yellow?",
+        "option3": " Definitely orange.",
+        "option4": " Ultraviolet mannnnn.",
+        "answer": "1",
+    },
+    {
+        "question": "WHAT is your favorite color?",
+        "option1": " Blue...no, green.",
+        "option2": " I don't know, yellow?",
+        "option3": " Definitely orange.",
+        "option4": " Ultraviolet mannnnn.",
+        "answer": "1",
+    },
+    {
+        "question": "WHAT is your favorite color?",
+        "option1": "Blue...no, green.",
+        "option2": "I don't know, yellow?",
+        "option3": "Definitely orange.",
+        "option4": "Ultraviolet mannnnn.",
+        "answer": "1",
+    },
+    {
+        "question": "WHAT is your favorite color?",
+        "option1": "Blue...no, green.",
+        "option2": "I don't know, yellow?",
+        "option3": "Definitely orange.",
+        "option4": "Ultraviolet mannnnn.",
+        "answer": "1",
+    },
+    {
+        "question": "WHAT is your favorite color?",
+        "option1": "Blue...no, green.",
+        "option2": "I don't know, yellow?",
+        "option3": "Definitely orange.",
+        "option4": "Ultraviolet mannnnn.",
+        "answer": "1",
+    },
+];
