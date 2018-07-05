@@ -1,42 +1,36 @@
-var questions = [
-    {
+var questions = [{
         "question": "WHAT is your favorite color?",
         "option1": " Blue...no, green.",
         "option2": " I don't know, yellow?",
         "option3": " Definitely orange.",
         "option4": " Ultraviolet mannnnn.",
         "answer": "1",
-    },
-    {
-        "question": "WHAT is your favorite color?",
-        "option1": " Blue...no, green.",
-        "option2": " I don't know, yellow?",
-        "option3": " Definitely orange.",
-        "option4": " Ultraviolet mannnnn.",
+    }, {
+        "question": "Why ride a horse when you can...?",
+        "option1": " Ride a cow.",
+        "option2": " Walk.",
+        "option3": " Ride a giant chicken",
+        "option4": " Bang two coconuts together, duh.",
+        "answer": "4",
+    }, {
+        "question": "King Arthur and his knights decide they do not want to stay in Camelot because it is...?",
+        "option1": "horribly crowded.",
+        "option2": "a silly place.",
+        "option3": "too cold.",
+        "option4": "outside of King Arthur's jurisdiction.",
+        "answer": "2",
+    }, {
+        "question": "What are the monks in the village scene hitting themselves with?",
+        "option1": "Boards.",
+        "option2": "Ducks.",
+        "option3": "Loafs of bread.",
+        "option4": "Bibles.",
         "answer": "1",
-    },
-    {
-        "question": "WHAT is your favorite color?",
-        "option1": "Blue...no, green.",
-        "option2": "I don't know, yellow?",
-        "option3": "Definitely orange.",
-        "option4": "Ultraviolet mannnnn.",
-        "answer": "1",
-    },
-    {
-        "question": "WHAT is your favorite color?",
-        "option1": "Blue...no, green.",
-        "option2": "I don't know, yellow?",
-        "option3": "Definitely orange.",
-        "option4": "Ultraviolet mannnnn.",
-        "answer": "1",
-    },
-    {
-        "question": "WHAT is your favorite color?",
-        "option1": "Blue...no, green.",
-        "option2": "I don't know, yellow?",
-        "option3": "Definitely orange.",
-        "option4": "Ultraviolet mannnnn.",
-        "answer": "1",
-    },
-];
+    }, {
+        "question": "What is the airspeed velocity of an unladen swallow?",
+        "option1": "Faster than you.",
+        "option2": "24 miles per hour.",
+        "option3": "11 meters per second.",
+        "option4": "What do you mean? African or European swallow?",
+        "answer": "4",
+    }];
