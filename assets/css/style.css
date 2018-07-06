@@ -1,6 +1,6 @@
 body{
 	font-family: 'Roboto Slab', serif;
-	background-color: #663399;
+	background-color: #800080;
 	background-image: url("../images/hgbackground2.jpg")
 }
 
@@ -8,19 +8,20 @@ body{
 	height: auto;
 	width: auto;
 	position: relative;
-	top: 50%;
+	top: 30%;
     left: auto;
     right: auto;
 	background: rgba(255, 255, 255, 0.5);
 	padding: 20px;
-	border: 1px solid #08038C;
+	border: 1px solid  #800080;
 	box-shadow: 0 0 8px 3px #fff;
 }
 
 .title{
-	padding-top: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 	text-align: center;
-	font-size: 36px;
+	font-size: 42px;
 	text-transform: uppercase;
 	color: #800080;
 }
@@ -77,4 +78,10 @@ body{
 .option input:checked .option{
 	background: #08038C;
 	color: #000;
+}
+
+.timeTracker {
+	text-align: center;
+	border: 1px solid  #800080;
+	box-shadow: 0 0 8px 3px #fff;
 }

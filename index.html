@@ -14,7 +14,7 @@
     <!-- <link rel="stylesheet" href="./assets/css/reset.css"> -->
 </head>
 
-<body>
+<body onload="run()">
     <div class="row">
         <div class="col-12">
             <div id="quizContainer" class="container">
@@ -38,18 +38,18 @@
                 </label>
                 <br><br>
                 <div class="timeTracker"></div>
+                <br>
                 <button id="nextButton" class="next-btn" onclick="nextQuestion();">Next Question</button>
             </div>
         </div>
         <div id="result" class="container result" style="display:none;"></div>
     </div>
-    <!-- Links jQuery Library -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
     <!-- Links Javascript -->
     <script type="text/javascript" src="./assets/javascript/questions.js"></script>
     <script type="text/javascript" src="./assets/javascript/app.js"></script>
-    <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/4f936b58/cloudflare-static/rocket-loader.min.js" data-cf-nonce="247bf10e54c3be4cf440c6fc-"
-        defer=""></script>
+    <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/4f936b58/cloudflare-static/rocket-loader.min.js" data-cf-nonce="247bf10e54c3be4cf440c6fc-" defer=""></script>
+    <!-- Links jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
 
 </html>

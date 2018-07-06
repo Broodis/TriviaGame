@@ -1,8 +1,8 @@
     var currentQuestion = 0;
     var score = 0;
     var totalQuestions = questions.length;
-    var timeTracker = 0;
-    var timer = '';
+    var countdown = 60;
+    var intervalId;
 
     var container = document.getElementById('quizContainer');
     var questionEl = document.getElementById('question');
@@ -48,32 +48,20 @@
         askQuestion(currentQuestion);
     }
 
-// Timer
-var startTimer = function (){
-    $('.timerSection').empty();
-    timeTracker = 100;
-    var timeTag = $('<div>');
-    timeTag.addClass('time');
-    timeTag.addClass('progress');
-    var progressBar = $('<div>');
-    progressBar.addClass('progress-bar');
-    progressBar.width(timeTracker + '%');
-
-    $('.timerSection').append(timeTag);
-    $('.time').append(progressBar);	
-    //Decrements Time
-    timer = setInterval(timeDecrement,100);
-}
-var timeDecrement = function(){ 
-    //Progress bar decrement
-    $('.progress-bar').width(timeTracker + '%');
-    timeTracker--;
-    //if time gets to 0
-    if(timeTracker === -10){
-        userAnswer = false;
-        //Clears Time
-        clearInterval(timer);
-        checkAnswer();
-    }
-}
     askQuestion(currentQuestion);
+// Timer
+    function run() {
+        clearInterval(intervalId);
+        intervalId = setInterval(decrement, 1000);
+    }
+    function decrement() {
+        countdown--;
+        $(".timeTracker").html("<h2>" + countdown + " seconds remaining</h2>");
+        if (countdown === 0) {
+            container.style.display = 'none';
+            results.style.display = '';
+            results.textContent = 'Your Score: ' + score + ' out of 5';
+            return;
+        }
+    }
+    
