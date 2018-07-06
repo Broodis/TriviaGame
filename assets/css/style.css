@@ -1,15 +1,16 @@
 body{
 	font-family: 'Roboto Slab', serif;
-	background: #663399;
+	background-color: #663399;
+	background-image: url("../images/hgbackground2.jpg")
 }
 
 .container{
 	height: auto;
-	width: 1000px;
-	position: absolute;
-	top:50%;
-	left:50%;
-	transform: translateX(-50%) translateY(-50%);
+	width: auto;
+	position: relative;
+	top: 50%;
+    left: auto;
+    right: auto;
 	background: rgba(255, 255, 255, 0.5);
 	padding: 20px;
 	border: 1px solid #08038C;
@@ -34,7 +35,7 @@ body{
 }
 
 .option{
-	width: 470px;
+	width: 100%;
 	display: inline-block;
 	padding: 10px 0 10px 15px;
 	vertical-align: middle;
@@ -57,9 +58,9 @@ body{
 	height: auto;
 	border-radius: 20px;
 	cursor: pointer;
-	float: right;
-    margin: 10px;
-    color: #f6f6f6
+    margin: auto;
+    color: #f6f6f6;
+    display: block;
 }
 
 .next-btn:hover{

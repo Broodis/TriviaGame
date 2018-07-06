@@ -15,35 +15,41 @@
 </head>
 
 <body>
-    <div id="quizContainer" class="container">
-        <div class="title">The Quest for the Holy Grail</div>
-        <div id="question" class="question"></div>
-        <label class="option">
-            <input type="radio" name="option" value="1" />
-            <span id="opt1"></span>
-        </label>
-        <label class="option">
-            <input type="radio" name="option" value="2" />
-            <span id="opt2"></span>
-        </label>
-        <label class="option">
-            <input type="radio" name="option" value="3" />
-            <span id="opt3"></span>
-        </label>
-        <label class="option">
-            <input type="radio" name="option" value="4" />
-            <span id="opt4"></span>
-        </label>
-        <button id="nextButton" class="next-btn" onclick="nextQuestion();">Next Question</button>
+    <div class="row">
+        <div class="col-12">
+            <div id="quizContainer" class="container">
+                <div class="title">The Quest for the Holy Grail</div>
+                <div id="question" class="question"></div>
+                <label class="option">
+                    <input type="radio" name="option" value="1" />
+                    <span id="opt1"></span>
+                </label>
+                <label class="option">
+                    <input type="radio" name="option" value="2" />
+                    <span id="opt2"></span>
+                </label>
+                <label class="option">
+                    <input type="radio" name="option" value="3" />
+                    <span id="opt3"></span>
+                </label>
+                <label class="option">
+                    <input type="radio" name="option" value="4" />
+                    <span id="opt4"></span>
+                </label>
+                <br><br>
+                <div class="timeTracker"></div>
+                <button id="nextButton" class="next-btn" onclick="nextQuestion();">Next Question</button>
+            </div>
+        </div>
+        <div id="result" class="container result" style="display:none;"></div>
     </div>
-    <div id="result" class="container result" style="display:none;"></div>
-    
     <!-- Links jQuery Library -->
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
     <!-- Links Javascript -->
     <script type="text/javascript" src="./assets/javascript/questions.js"></script>
     <script type="text/javascript" src="./assets/javascript/app.js"></script>
-    <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/4f936b58/cloudflare-static/rocket-loader.min.js" data-cf-nonce="247bf10e54c3be4cf440c6fc-" defer=""></script>
+    <script src="https://ajax.cloudflare.com/cdn-cgi/scripts/4f936b58/cloudflare-static/rocket-loader.min.js" data-cf-nonce="247bf10e54c3be4cf440c6fc-"
+        defer=""></script>
 </body>
 
 </html>
